@@ -39,6 +39,9 @@ public class AppStart {
             if(args[i].equals("-serverIp")){
                 Parameters.connectServerIp = args[i+1];
             }
+            if(args[i].equals("-proxyIp")){
+                Parameters.connectProxyIp = args[i+1];
+            }
             if(args[i].equals("-maxThread")){
                 Parameters.maxThread = Integer.parseInt(args[i+1]);
             }
