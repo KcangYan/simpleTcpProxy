@@ -16,6 +16,6 @@
     
 **启动命令示例**
 
-    服务端 java -jar proxy-1.0.jar -model server -port 1080 -proxy 8033
-    客户端 java -jar proxy-1.0.jar -model client -serverIp 127.0.0.1 -port 1080 -proxyIp hsupup.com -proxy 8033
+    服务端 java -jar proxy-1.0.jar -model server -port 1080 -proxyPort 8033
+    客户端 java -jar proxy-1.0.jar -model client -serverIp 127.0.0.1 -port 1080 -proxyIp hsupup.com -proxyPort 8033
     
